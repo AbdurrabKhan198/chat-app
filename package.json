@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000h\u0000a\u0000t\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./static/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdurrabKhan198/chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AbdurrabKhan198/chat-app/issues"
+  },
+  "homepage": "https://github.com/AbdurrabKhan198/chat-app#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
